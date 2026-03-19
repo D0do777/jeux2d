@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+
 <meta charset="UTF-8">
-<title>Gravity Platformer</title>
+<title>Gravity Pixel Game</title>
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<h1>Gravity Platformer</h1>
+<canvas id="game"></canvas>
 
-<div id="game">
-    <div id="player"></div>
-
-    <div class="platform" style="left:0px; top:350px; width:800px;"></div>
-    <div class="platform" style="left:200px; top:250px; width:150px;"></div>
-    <div class="platform" style="left:450px; top:200px; width:150px;"></div>
-</div>
-
-<script src="game.js"></script>
+<script src="js/controls.js"></script>
+<script src="js/physics.js"></script>
+<script src="js/player.js"></script>
+<script src="js/enemy.js"></script>
+<script src="js/coin.js"></script>
+<script src="js/laser.js"></script>
+<script src="js/camera.js"></script>
+<script src="js/level.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
