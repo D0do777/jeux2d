@@ -1,31 +1,12 @@
-body{
-    background:#111;
-    color:white;
-    text-align:center;
-    font-family:Arial;
+body
+{
+margin:0;
+overflow:hidden;
+background:black;
 }
 
-#game{
-    position:relative;
-    width:800px;
-    height:400px;
-    margin:auto;
-    background:#222;
-    overflow:hidden;
-    border:3px solid white;
-}
-
-#player{
-    position:absolute;
-    width:30px;
-    height:30px;
-    background:#00ffcc;
-    left:100px;
-    top:100px;
-}
-
-.platform{
-    position:absolute;
-    height:20px;
-    background:#888;
+canvas
+{
+image-rendering: pixelated;
+display:block;
 }
